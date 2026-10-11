@@ -1,0 +1,200 @@
+{
+  "marketSizing": {
+    "description": "Market sizing frameworks help estimate the revenue opportunity for a business. The TAM-SAM-SOM approach narrows from total market to addressable opportunity.",
+    "approaches": [
+      {
+        "name": "TAM (Total Addressable Market)",
+        "description": "The total market demand for a product or service, assuming 100% market share with no competition. Represents the maximum revenue opportunity.",
+        "calculationMethods": [
+          "Top-down: Start with industry reports, narrow by geography and segment",
+          "Bottom-up: Number of potential customers × average revenue per customer",
+          "Value theory: How much value does your solution create for the market?"
+        ]
+      },
+      {
+        "name": "SAM (Serviceable Addressable Market)",
+        "description": "The segment of TAM targeted by your products/services that is within your geographic reach and fits your business model.",
+        "calculationMethods": [
+          "TAM filtered by: geography, customer type, pricing tier, distribution capability",
+          "Focus on segments you can actually reach with your current business model"
+        ]
+      },
+      {
+        "name": "SOM (Serviceable Obtainable Market)",
+        "description": "The portion of SAM that you can realistically capture in the near term (1-3 years), considering competition and resources.",
+        "calculationMethods": [
+          "SAM × realistic market share (typically 1-5% for startups in year 1)",
+          "Bottom-up from sales capacity, marketing budget, and conversion rates",
+          "Comparable company analysis: what share did similar companies achieve?"
+        ]
+      }
+    ]
+  },
+  "competitiveAnalysis": {
+    "description": "Frameworks for understanding the competitive landscape and positioning your business.",
+    "templates": [
+      {
+        "name": "Competitive Matrix",
+        "description": "Compare competitors across key dimensions relevant to customer decisions",
+        "dimensions": ["Price", "Quality", "Features", "Distribution", "Brand recognition", "Customer service", "Innovation speed", "Sustainability credentials"],
+        "usage": "Plot competitors on a 2×2 matrix using the two most differentiating dimensions"
+      },
+      {
+        "name": "Strategic Group Analysis",
+        "description": "Identify clusters of competitors with similar strategies",
+        "factors": ["Pricing strategy", "Market scope (niche vs. broad)", "Quality level", "Technology adoption", "Vertical integration"],
+        "usage": "Group competitors by strategic similarity to find gaps and opportunities"
+      },
+      {
+        "name": "Blue Ocean Strategy",
+        "description": "Create uncontested market space by simultaneously pursuing differentiation and low cost",
+        "principles": [
+          "Eliminate: Which factors the industry takes for granted should be eliminated?",
+          "Reduce: Which factors should be reduced well below the industry standard?",
+          "Raise: Which factors should be raised well above the industry standard?",
+          "Create: Which factors should be created that the industry has never offered?"
+        ]
+      }
+    ]
+  },
+  "revenueModels": {
+    "description": "Revenue model patterns organized by industry applicability",
+    "patterns": [
+      {
+        "model": "Transaction-based",
+        "description": "Revenue from each sale or transaction",
+        "industries": ["Retail", "E-commerce", "Marketplaces"],
+        "metrics": ["Average order value", "Transaction frequency", "Customer lifetime value"],
+        "sustainabilityFit": "Can integrate sustainable product premiums and eco-labels"
+      },
+      {
+        "model": "Subscription/Recurring",
+        "description": "Predictable recurring revenue from periodic payments",
+        "industries": ["SaaS", "Media", "Health & Wellness", "Education"],
+        "metrics": ["MRR/ARR", "Churn rate", "LTV:CAC ratio", "Net revenue retention"],
+        "sustainabilityFit": "Reduces waste through predictable demand; enables product-as-a-service"
+      },
+      {
+        "model": "Advertising/Attention",
+        "description": "Revenue from displaying ads to an audience",
+        "industries": ["Media", "Social platforms", "Search engines", "Free apps"],
+        "metrics": ["CPM", "CPC", "DAU/MAU", "Time on platform", "Ad fill rate"],
+        "sustainabilityFit": "Can promote sustainable products; attention economy raises ethical concerns"
+      },
+      {
+        "model": "Licensing/IP",
+        "description": "Revenue from allowing others to use intellectual property",
+        "industries": ["Technology", "Entertainment", "Franchising", "Patents"],
+        "metrics": ["License fees", "Royalty rates", "Number of licensees", "IP portfolio value"],
+        "sustainabilityFit": "Technology licensing can accelerate sustainable innovation diffusion"
+      },
+      {
+        "model": "Service/Consulting",
+        "description": "Revenue from professional services and expertise",
+        "industries": ["Consulting", "Healthcare", "Legal", "Design", "Engineering"],
+        "metrics": ["Billable hours", "Project value", "Utilization rate", "Client retention"],
+        "sustainabilityFit": "Advisory services for sustainability transformation have high growth"
+      },
+      {
+        "model": "Data Monetization",
+        "description": "Revenue from insights generated by data collection and analysis",
+        "industries": ["Analytics", "IoT", "FinTech", "HealthTech"],
+        "metrics": ["Data volume", "Insight accuracy", "Customer decisions influenced"],
+        "sustainabilityFit": "Data-driven sustainability reporting and ESG analytics"
+      },
+      {
+        "model": "Impact/Outcome-based",
+        "description": "Revenue tied to measurable outcomes or social/environmental impact",
+        "industries": ["Social enterprises", "Impact investing", "Pay-for-success programs"],
+        "metrics": ["Social ROI", "Impact metrics achieved", "Cost savings generated"],
+        "sustainabilityFit": "Directly aligns financial incentives with sustainability outcomes"
+      }
+    ]
+  },
+  "customerSegmentArchetypes": {
+    "description": "Common customer segment patterns that appear across industries",
+    "archetypes": [
+      {
+        "name": "Early Adopters",
+        "description": "Tech-savvy, risk-tolerant customers who try new products first",
+        "characteristics": ["High tolerance for imperfection", "Value innovation over polish", "Influence others", "Willing to pay premium for novelty"],
+        "reachStrategy": "Product communities, tech blogs, beta programs, influencer partnerships"
+      },
+      {
+        "name": "Price-Sensitive Pragmatists",
+        "description": "Value-focused customers who prioritize cost-effectiveness",
+        "characteristics": ["Comparison shoppers", "Wait for reviews", "Prefer proven solutions", "Sensitive to switching costs"],
+        "reachStrategy": "Price comparison sites, referral programs, free trials, money-back guarantees"
+      },
+      {
+        "name": "Conscious Consumers",
+        "description": "Customers who factor social and environmental impact into purchasing decisions",
+        "characteristics": ["Research brand values", "Willing to pay 10-25% premium for sustainability", "Share values on social media", "High brand loyalty when values align"],
+        "reachStrategy": "Sustainability certifications, impact reports, purpose-driven content, community engagement"
+      },
+      {
+        "name": "Enterprise/B2B Buyers",
+        "description": "Organizational buyers with formal procurement processes",
+        "characteristics": ["Multi-stakeholder decision-making", "Long sales cycles", "Require ROI justification", "Value relationships and support"],
+        "reachStrategy": "Account-based marketing, case studies, demos, procurement compliance, ESG reporting"
+      },
+      {
+        "name": "Underserved/BOP Markets",
+        "description": "Base-of-pyramid markets with significant unmet needs",
+        "characteristics": ["Price-constrained", "Limited access to traditional channels", "Mobile-first", "Community-influenced"],
+        "reachStrategy": "Mobile distribution, agent networks, microfinance partnerships, community trust-building"
+      }
+    ]
+  },
+  "channelStrategies": {
+    "description": "Frameworks for reaching and delivering value to customers",
+    "frameworks": [
+      {
+        "name": "Omnichannel Integration",
+        "description": "Seamless customer experience across all touchpoints (online, offline, mobile)",
+        "considerations": ["Channel consistency", "Data sharing across touchpoints", "Customer journey mapping", "Attribution modeling"]
+      },
+      {
+        "name": "Partnership Distribution",
+        "description": "Leveraging partner networks to reach customers at scale",
+        "types": ["Reseller partnerships", "White-label agreements", "Integration partnerships", "Affiliate programs"],
+        "considerations": ["Partner alignment on values", "Revenue sharing models", "Brand control", "Customer relationship ownership"]
+      },
+      {
+        "name": "Community-Led Growth",
+        "description": "Building communities around your product that drive organic growth",
+        "tactics": ["User communities", "Ambassador programs", "Educational content", "Open-source contributions"],
+        "considerations": ["Community management resources", "Authenticity", "Value exchange with community members"]
+      },
+      {
+        "name": "Digital-First Distribution",
+        "description": "Prioritizing digital channels for discovery, acquisition, and delivery",
+        "channels": ["SEO/Content marketing", "Social media", "App stores", "API marketplaces", "Email/Newsletter"],
+        "considerations": ["Customer acquisition cost", "Channel saturation", "Content quality requirements", "Technical infrastructure"]
+      }
+    ]
+  },
+  "financialPlanning": {
+    "description": "Key financial planning frameworks for business plans",
+    "elements": [
+      {
+        "name": "Unit Economics",
+        "description": "Revenue and costs associated with a single unit of your business model",
+        "metrics": ["Customer Acquisition Cost (CAC)", "Lifetime Value (LTV)", "LTV:CAC ratio (target: >3:1)", "Payback period", "Gross margin per unit"],
+        "importance": "Validates whether the business model is fundamentally viable before scaling"
+      },
+      {
+        "name": "Break-even Analysis",
+        "description": "The point at which total revenue equals total costs",
+        "formula": "Break-even units = Fixed Costs / (Price per unit - Variable cost per unit)",
+        "considerations": ["Timeline to break-even", "Cash runway needed", "Sensitivity to price/volume changes"]
+      },
+      {
+        "name": "Financial Projections",
+        "description": "3-5 year forward-looking financial estimates",
+        "components": ["Revenue forecast (conservative, base, optimistic)", "Cost of goods sold", "Operating expenses", "Capital expenditures", "Cash flow statement"],
+        "bestPractices": ["Use bottom-up assumptions", "State key assumptions explicitly", "Include sensitivity analysis", "Benchmark against comparable companies"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "description": "Guidance for writing each section of a 10-section business plan grounded in prior workflow steps.",
+  "sections": [
+    {
+      "id": "executive_summary",
+      "number": 1,
+      "title": "Executive Summary",
+      "purpose": "Provide a concise overview of the business, value proposition, target market, and strategic direction.",
+      "keyQuestions": [
+        "What problem does the business solve?",
+        "Who is the primary customer?",
+        "What is the unique value proposition?",
+        "What are the top 3 strategic priorities?"
+      ],
+      "exampleMetrics": ["Target market size", "Revenue model summary", "Key SDG alignment"],
+      "antiHallucinationRules": [
+        "Do not invent revenue figures not supported by BMC or SWOT",
+        "Reference the selected value proposition by name",
+        "Only claim SDG alignment supported by prior mapping"
+      ]
+    },
+    {
+      "id": "market_opportunity",
+      "number": 2,
+      "title": "Market Opportunity",
+      "purpose": "Describe the market need, size, trends, and why now is the right time.",
+      "keyQuestions": [
+        "Who experiences the problem most acutely?",
+        "What market trends support this opportunity?",
+        "What is the competitive landscape?"
+      ],
+      "exampleMetrics": ["TAM/SAM/SOM estimates if grounded", "Growth rate", "Customer segment size"],
+      "antiHallucinationRules": [
+        "Mark market size estimates as [INFERRED] unless sourced from user context",
+        "Align customer segments with BMC customer_segments block",
+        "Do not contradict SWOT opportunities or threats"
+      ]
+    },
+    {
+      "id": "business_model_overview",
+      "number": 3,
+      "title": "Business Model Overview",
+      "purpose": "Summarize how the business creates, delivers, and captures value using BMC blocks.",
+      "keyQuestions": [
+        "How does each BMC block contribute to the model?",
+        "What are the key partnerships and resources?",
+        "How does revenue flow?"
+      ],
+      "exampleMetrics": ["Revenue streams", "Cost drivers", "Key partners count"],
+      "antiHallucinationRules": [
+        "Every BMC block claim must map to stored BMC content",
+        "Cite block names explicitly (e.g., Key Partners, Revenue Streams)",
+        "Do not add partners or channels not in the BMC"
+      ]
+    },
+    {
+      "id": "product_service",
+      "number": 4,
+      "title": "Product or Service Description",
+      "purpose": "Explain the offering, features, and differentiation.",
+      "keyQuestions": [
+        "What is the core product or service?",
+        "What pain points does it relieve?",
+        "What makes it different from alternatives?"
+      ],
+      "exampleMetrics": ["Feature list", "Delivery model", "Pricing approach"],
+      "antiHallucinationRules": [
+        "Ground features in value_propositions BMC block",
+        "Align with selected SWOT strengths",
+        "Do not invent product capabilities not implied by story or BMC"
+      ]
+    },
+    {
+      "id": "customer_marketing",
+      "number": 5,
+      "title": "Customer & Marketing Strategy",
+      "purpose": "Define target customers, relationships, channels, and go-to-market approach.",
+      "keyQuestions": [
+        "Who are the primary customer segments?",
+        "How will you reach and retain them?",
+        "What is the customer relationship model?"
+      ],
+      "exampleMetrics": ["CAC assumptions [INFERRED]", "Channel mix", "Retention strategy"],
+      "antiHallucinationRules": [
+        "Use BMC customer_segments, channels, and customer_relationships blocks",
+        "Match focus areas from dilemma triangle workflow",
+        "Do not contradict tensions or dilemmas resolved earlier"
+      ]
+    },
+    {
+      "id": "operations",
+      "number": 6,
+      "title": "Operations Plan",
+      "purpose": "Describe key activities, resources, and operational delivery model.",
+      "keyQuestions": [
+        "What are the critical activities?",
+        "What resources are required?",
+        "How is quality and delivery ensured?"
+      ],
+      "exampleMetrics": ["Key activities list", "Resource requirements", "Operational milestones"],
+      "antiHallucinationRules": [
+        "Ground in BMC key_activities and key_resources blocks",
+        "Address operational risks from issues/tensions steps",
+        "Do not invent facilities or headcount without marking [INFERRED]"
+      ]
+    },
+    {
+      "id": "financial_sustainability",
+      "number": 7,
+      "title": "Financial & Sustainability Outlook",
+      "purpose": "Outline revenue model, cost structure, and financial sustainability.",
+      "keyQuestions": [
+        "What are the primary revenue streams?",
+        "What are the major cost drivers?",
+        "How does the model remain financially sustainable?"
+      ],
+      "exampleMetrics": ["Revenue streams", "Cost structure", "Break-even timeline [INFERRED]"],
+      "antiHallucinationRules": [
+        "Use BMC revenue_streams and cost_structure blocks as source of truth",
+        "Mark financial projections as [INFERRED] unless user provided numbers",
+        "Align with SWOT financial opportunities and threats"
+      ]
+    },
+    {
+      "id": "risks_mitigation",
+      "number": 8,
+      "title": "Key Risks & Mitigation Strategies",
+      "purpose": "Identify major risks and concrete mitigation approaches.",
+      "keyQuestions": [
+        "What are the top business risks?",
+        "How will each risk be mitigated?",
+        "What trade-offs remain unresolved?"
+      ],
+      "exampleMetrics": ["Risk severity", "Mitigation actions", "Residual risk level"],
+      "antiHallucinationRules": [
+        "Draw risks from SWOT weaknesses and threats",
+        "Reference ranked dilemmas and tensions from prior steps",
+        "Do not dismiss risks flagged in critique agent warnings"
+      ]
+    },
+    {
+      "id": "sdg_alignment",
+      "number": 9,
+      "title": "SDG Alignment & Impact",
+      "purpose": "Connect the business model to UN SDGs with evidence-based claims.",
+      "keyQuestions": [
+        "Which SDGs does the business directly support?",
+        "What is the evidence for each alignment?",
+        "What social/environmental costs and benefits exist?"
+      ],
+      "exampleMetrics": ["Strong SDG alignments", "Impact indicators", "Social/environmental benefit items"],
+      "antiHallucinationRules": [
+        "Only claim strong SDG alignment with evidence from SDG mapping or BMC impact blocks",
+        "Use social_environmental_cost and social_environmental_benefit BMC blocks",
+        "Avoid greenwashing — mark inferred alignments as [INFERRED]"
+      ]
+    },
+    {
+      "id": "conclusion",
+      "number": 10,
+      "title": "Conclusion & Next Steps",
+      "purpose": "Summarize strategic direction and immediate actionable next steps.",
+      "keyQuestions": [
+        "What is the strategic summary?",
+        "What are the top 3 next steps?",
+        "What milestones should be tracked?"
+      ],
+      "exampleMetrics": ["90-day milestones", "Key partnerships to pursue", "Validation steps"],
+      "antiHallucinationRules": [
+        "Next steps must follow logically from prior sections",
+        "Do not introduce new business lines or markets not discussed earlier",
+        "Reiterate selected value proposition and primary SDG focus"
+      ]
+    }
+  ]
+}

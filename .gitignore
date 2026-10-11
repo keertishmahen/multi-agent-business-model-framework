@@ -1,0 +1,31 @@
+# secrets
+.env
+.env.*
+!.env.example
+server_py/.env
+
+# node
+node_modules/
+build/
+assets/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+server_py/.venv/
+.pytest_cache/
+
+# data stores
+server_py/chroma/
+server/data/
+
+# artefacts
+*.zip
+*.log
+build_output.txt
+deploy-staging/
+.DS_Store
+.kiro/
+.cursor/

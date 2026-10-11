@@ -1,0 +1,294 @@
+{
+  "description": "The 17 United Nations Sustainable Development Goals (SDGs) adopted in 2015 as a universal call to action to end poverty, protect the planet, and ensure prosperity for all by 2030.",
+  "goals": [
+    {
+      "id": 1,
+      "name": "No Poverty",
+      "description": "End poverty in all its forms everywhere. Poverty encompasses lack of income and productive resources to ensure sustainable livelihoods.",
+      "targets": [
+        "Eradicate extreme poverty (less than $2.15/day)",
+        "Reduce at least by half the proportion of people living in poverty",
+        "Implement social protection systems and measures for all"
+      ],
+      "businessApplications": [
+        "Fair wage policies and living wage commitments",
+        "Financial inclusion products (microfinance, mobile banking)",
+        "Supply chain practices that uplift smallholders",
+        "Affordable products and services for base-of-pyramid markets"
+      ],
+      "indicators": ["Employees paid living wage", "Suppliers from low-income communities", "Affordable product lines"]
+    },
+    {
+      "id": 2,
+      "name": "Zero Hunger",
+      "description": "End hunger, achieve food security and improved nutrition, and promote sustainable agriculture.",
+      "targets": [
+        "End hunger and ensure access to safe and nutritious food",
+        "End all forms of malnutrition",
+        "Double agricultural productivity and incomes of small-scale food producers"
+      ],
+      "businessApplications": [
+        "Sustainable agriculture and food production",
+        "Food waste reduction initiatives",
+        "Nutrition-focused product development",
+        "Supporting smallholder farmers in supply chains"
+      ],
+      "indicators": ["Food waste reduction metrics", "Sustainable sourcing percentage", "Nutritional value of products"]
+    },
+    {
+      "id": 3,
+      "name": "Good Health and Well-being",
+      "description": "Ensure healthy lives and promote well-being for all at all ages.",
+      "targets": [
+        "Reduce maternal mortality and end preventable deaths of newborns",
+        "End epidemics and combat diseases",
+        "Achieve universal health coverage"
+      ],
+      "businessApplications": [
+        "Affordable healthcare products and services",
+        "Workplace health and safety programs",
+        "Mental health and well-being initiatives",
+        "Health-tech innovations for underserved populations"
+      ],
+      "indicators": ["Workplace safety incidents", "Health program participation", "Healthcare accessibility metrics"]
+    },
+    {
+      "id": 4,
+      "name": "Quality Education",
+      "description": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.",
+      "targets": [
+        "Ensure all children complete quality primary and secondary education",
+        "Equal access to affordable technical and higher education",
+        "Substantially increase the number of youth and adults with relevant skills"
+      ],
+      "businessApplications": [
+        "Employee training and development programs",
+        "EdTech products and services",
+        "Apprenticeship and internship programs",
+        "Educational partnerships with communities"
+      ],
+      "indicators": ["Training hours per employee", "Educational access programs", "Skills development metrics"]
+    },
+    {
+      "id": 5,
+      "name": "Gender Equality",
+      "description": "Achieve gender equality and empower all women and girls.",
+      "targets": [
+        "End all forms of discrimination against women and girls",
+        "Ensure women's full and effective participation in leadership",
+        "Ensure universal access to reproductive health and rights"
+      ],
+      "businessApplications": [
+        "Gender-balanced hiring and leadership development",
+        "Equal pay audits and policies",
+        "Products and services addressing women's needs",
+        "Women-owned supplier programs"
+      ],
+      "indicators": ["Gender pay gap", "Women in leadership positions", "Gender-balanced workforce metrics"]
+    },
+    {
+      "id": 6,
+      "name": "Clean Water and Sanitation",
+      "description": "Ensure availability and sustainable management of water and sanitation for all.",
+      "targets": [
+        "Achieve universal and equitable access to safe drinking water",
+        "Achieve access to adequate sanitation and hygiene",
+        "Improve water quality by reducing pollution"
+      ],
+      "businessApplications": [
+        "Water efficiency in operations",
+        "Water purification products and services",
+        "Wastewater treatment and recycling",
+        "Community water access programs"
+      ],
+      "indicators": ["Water usage efficiency", "Wastewater treatment rate", "Water access programs supported"]
+    },
+    {
+      "id": 7,
+      "name": "Affordable and Clean Energy",
+      "description": "Ensure access to affordable, reliable, sustainable and modern energy for all.",
+      "targets": [
+        "Ensure universal access to affordable and reliable energy",
+        "Increase the share of renewable energy",
+        "Double the global rate of improvement in energy efficiency"
+      ],
+      "businessApplications": [
+        "Renewable energy adoption and generation",
+        "Energy-efficient products and operations",
+        "Off-grid energy solutions for underserved areas",
+        "Clean energy technology development"
+      ],
+      "indicators": ["Renewable energy percentage", "Energy efficiency improvements", "Carbon intensity of operations"]
+    },
+    {
+      "id": 8,
+      "name": "Decent Work and Economic Growth",
+      "description": "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all.",
+      "targets": [
+        "Sustain per capita economic growth",
+        "Achieve higher levels of economic productivity through innovation",
+        "Promote development-oriented policies for productive activities and decent job creation"
+      ],
+      "businessApplications": [
+        "Fair labor practices and living wages",
+        "Job creation in underserved communities",
+        "Supply chain labor standards",
+        "Innovation and productivity improvements"
+      ],
+      "indicators": ["Job creation numbers", "Employee satisfaction scores", "Labor practice audits"]
+    },
+    {
+      "id": 9,
+      "name": "Industry, Innovation and Infrastructure",
+      "description": "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation.",
+      "targets": [
+        "Develop quality, reliable and resilient infrastructure",
+        "Promote inclusive and sustainable industrialization",
+        "Enhance scientific research and upgrade industrial technologies"
+      ],
+      "businessApplications": [
+        "Sustainable infrastructure development",
+        "R&D investment in clean technologies",
+        "Digital infrastructure for underserved areas",
+        "Industrial process optimization"
+      ],
+      "indicators": ["R&D spending", "Infrastructure investments", "Innovation metrics"]
+    },
+    {
+      "id": 10,
+      "name": "Reduced Inequalities",
+      "description": "Reduce inequality within and among countries.",
+      "targets": [
+        "Progressively achieve income growth of the bottom 40%",
+        "Empower and promote social, economic and political inclusion",
+        "Ensure equal opportunity and reduce inequalities of outcome"
+      ],
+      "businessApplications": [
+        "Inclusive hiring practices",
+        "Products accessible to marginalized communities",
+        "Progressive wage structures",
+        "Diversity, equity, and inclusion programs"
+      ],
+      "indicators": ["Workforce diversity metrics", "Pay equity ratios", "Accessibility of products/services"]
+    },
+    {
+      "id": 11,
+      "name": "Sustainable Cities and Communities",
+      "description": "Make cities and human settlements inclusive, safe, resilient and sustainable.",
+      "targets": [
+        "Ensure access to adequate, safe and affordable housing",
+        "Provide access to sustainable transport systems",
+        "Reduce the adverse environmental impact of cities"
+      ],
+      "businessApplications": [
+        "Sustainable urban development projects",
+        "Green building and construction",
+        "Sustainable mobility solutions",
+        "Community-centered design and planning"
+      ],
+      "indicators": ["Green building certifications", "Sustainable transport usage", "Community impact assessments"]
+    },
+    {
+      "id": 12,
+      "name": "Responsible Consumption and Production",
+      "description": "Ensure sustainable consumption and production patterns.",
+      "targets": [
+        "Implement the 10-year framework on sustainable consumption and production",
+        "Achieve sustainable management and efficient use of natural resources",
+        "Halve per capita global food waste at retail and consumer levels"
+      ],
+      "businessApplications": [
+        "Circular economy business models",
+        "Sustainable packaging and materials",
+        "Product lifecycle management",
+        "Waste reduction and recycling programs"
+      ],
+      "indicators": ["Waste reduction metrics", "Recycled content percentage", "Product lifecycle assessments"]
+    },
+    {
+      "id": 13,
+      "name": "Climate Action",
+      "description": "Take urgent action to combat climate change and its impacts.",
+      "targets": [
+        "Strengthen resilience and adaptive capacity to climate-related hazards",
+        "Integrate climate change measures into policies and planning",
+        "Improve education and awareness on climate change"
+      ],
+      "businessApplications": [
+        "Carbon footprint reduction and net-zero targets",
+        "Climate risk assessment and adaptation",
+        "Carbon offset and removal projects",
+        "Climate-resilient supply chains"
+      ],
+      "indicators": ["GHG emissions (Scope 1, 2, 3)", "Science-based targets progress", "Climate adaptation measures"]
+    },
+    {
+      "id": 14,
+      "name": "Life Below Water",
+      "description": "Conserve and sustainably use the oceans, seas and marine resources for sustainable development.",
+      "targets": [
+        "Prevent and reduce marine pollution",
+        "Sustainably manage and protect marine ecosystems",
+        "End overfishing and destructive fishing practices"
+      ],
+      "businessApplications": [
+        "Plastic pollution reduction",
+        "Sustainable seafood sourcing",
+        "Marine-friendly product design",
+        "Ocean conservation partnerships"
+      ],
+      "indicators": ["Plastic usage reduction", "Sustainable sourcing certifications", "Marine impact assessments"]
+    },
+    {
+      "id": 15,
+      "name": "Life on Land",
+      "description": "Protect, restore and promote sustainable use of terrestrial ecosystems, manage forests sustainably, combat desertification, and halt biodiversity loss.",
+      "targets": [
+        "Ensure conservation of terrestrial and freshwater ecosystems",
+        "Promote sustainable forest management",
+        "Combat desertification and restore degraded land"
+      ],
+      "businessApplications": [
+        "Sustainable land use and forestry",
+        "Biodiversity-positive supply chains",
+        "Deforestation-free commitments",
+        "Habitat restoration projects"
+      ],
+      "indicators": ["Land use change metrics", "Deforestation-free sourcing", "Biodiversity assessments"]
+    },
+    {
+      "id": 16,
+      "name": "Peace, Justice and Strong Institutions",
+      "description": "Promote peaceful and inclusive societies, provide access to justice for all and build effective, accountable institutions.",
+      "targets": [
+        "Significantly reduce all forms of violence",
+        "Promote the rule of law and ensure equal access to justice",
+        "Develop effective, accountable and transparent institutions"
+      ],
+      "businessApplications": [
+        "Anti-corruption policies and transparency",
+        "Ethical governance and compliance",
+        "Human rights due diligence",
+        "Stakeholder engagement and accountability"
+      ],
+      "indicators": ["Governance scores", "Anti-corruption training coverage", "Human rights assessments"]
+    },
+    {
+      "id": 17,
+      "name": "Partnerships for the Goals",
+      "description": "Strengthen the means of implementation and revitalize the global partnership for sustainable development.",
+      "targets": [
+        "Enhance global macroeconomic stability",
+        "Enhance policy coherence for sustainable development",
+        "Enhance the global partnership for sustainable development"
+      ],
+      "businessApplications": [
+        "Cross-sector collaboration and partnerships",
+        "Knowledge sharing and capacity building",
+        "Multi-stakeholder initiatives",
+        "Technology transfer and open innovation"
+      ],
+      "indicators": ["Partnership initiatives", "Collaborative projects", "Knowledge-sharing programs"]
+    }
+  ]
+}

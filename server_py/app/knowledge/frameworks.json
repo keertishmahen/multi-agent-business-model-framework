@@ -1,0 +1,309 @@
+{
+  "businessModelCanvas": {
+    "description": "The Business Model Canvas (BMC) is a strategic management tool that provides a visual framework for developing, describing, and analyzing business models. The expanded SDG-adapted version consists of 11 interconnected building blocks, including Social and Environmental Cost and Social and Environmental Benefit.",
+    "blocks": [
+      {
+        "id": "customer_segments",
+        "name": "Customer Segments",
+        "description": "Defines the different groups of people or organizations an enterprise aims to reach and serve. Customers comprise the heart of any business model.",
+        "keyQuestions": [
+          "For whom are we creating value?",
+          "Who are our most important customers?",
+          "What are the customer archetypes?"
+        ],
+        "examples": ["Mass market", "Niche market", "Segmented", "Diversified", "Multi-sided platforms"],
+        "relationships": ["Value Propositions are designed for specific Customer Segments", "Channels deliver value to Customer Segments", "Customer Relationships are established with each segment"]
+      },
+      {
+        "id": "value_propositions",
+        "name": "Value Propositions",
+        "description": "Describes the bundle of products and services that create value for a specific Customer Segment. It solves a customer problem or satisfies a need.",
+        "keyQuestions": [
+          "What value do we deliver to the customer?",
+          "Which customer needs are we satisfying?",
+          "What bundles of products/services are we offering?"
+        ],
+        "examples": ["Newness", "Performance", "Customization", "Getting the job done", "Design", "Brand/Status", "Price", "Cost reduction", "Risk reduction", "Accessibility", "Convenience"],
+        "relationships": ["Value Propositions serve specific Customer Segments", "They are delivered through Channels", "Key Activities and Resources create Value Propositions"]
+      },
+      {
+        "id": "channels",
+        "name": "Channels",
+        "description": "Describes how a company communicates with and reaches its Customer Segments to deliver a Value Proposition. Channels serve several functions: awareness, evaluation, purchase, delivery, and after-sales.",
+        "keyQuestions": [
+          "Through which channels do our customers want to be reached?",
+          "How do we reach them now?",
+          "Which channels work best and are most cost-efficient?"
+        ],
+        "examples": ["Direct: Sales force, Web sales, Own stores", "Indirect: Partner stores, Wholesaler"],
+        "relationships": ["Channels deliver Value Propositions to Customer Segments"]
+      },
+      {
+        "id": "customer_relationships",
+        "name": "Customer Relationships",
+        "description": "Describes the types of relationships a company establishes with specific Customer Segments. Motivations: customer acquisition, customer retention, boosting sales.",
+        "keyQuestions": [
+          "What type of relationship does each segment expect?",
+          "Which ones have we established?",
+          "How costly are they?"
+        ],
+        "examples": ["Personal assistance", "Dedicated personal assistance", "Self-service", "Automated services", "Communities", "Co-creation"],
+        "relationships": ["Customer Relationships are established with each Customer Segment"]
+      },
+      {
+        "id": "revenue_streams",
+        "name": "Revenue Streams",
+        "description": "Represents the cash a company generates from each Customer Segment. Revenue Streams can involve one-time transactions or recurring revenues.",
+        "keyQuestions": [
+          "For what value are customers willing to pay?",
+          "What are they currently paying for?",
+          "How would they prefer to pay?"
+        ],
+        "examples": ["Asset sale", "Usage fee", "Subscription", "Lending/Renting/Leasing", "Licensing", "Brokerage fees", "Advertising"],
+        "relationships": ["Revenue Streams are generated from Customer Segments through Value Propositions"]
+      },
+      {
+        "id": "key_resources",
+        "name": "Key Resources",
+        "description": "Describes the most important assets required to make a business model work. They allow an enterprise to create and offer value, reach markets, and earn revenues.",
+        "keyQuestions": [
+          "What key resources do our value propositions require?",
+          "Our distribution channels?",
+          "Customer relationships?"
+        ],
+        "examples": ["Physical (facilities, equipment)", "Intellectual (brands, patents, data)", "Human (key employees)", "Financial (cash, credit lines)"],
+        "relationships": ["Key Resources enable creation of Value Propositions, maintenance of Customer Relationships, and operation of Channels"]
+      },
+      {
+        "id": "key_activities",
+        "name": "Key Activities",
+        "description": "Describes the most important things a company must do to make its business model work. These are the critical actions for creating Value Propositions.",
+        "keyQuestions": [
+          "What key activities do our value propositions require?",
+          "Our distribution channels?",
+          "Revenue streams?"
+        ],
+        "examples": ["Production", "Problem solving", "Platform/Network management", "Supply chain management", "Marketing"],
+        "relationships": ["Key Activities use Key Resources to create Value Propositions and maintain operations"]
+      },
+      {
+        "id": "key_partnerships",
+        "name": "Key Partnerships",
+        "description": "Describes the network of suppliers and partners that make the business model work. Companies forge partnerships to optimize, reduce risk, or acquire resources.",
+        "keyQuestions": [
+          "Who are our key partners and suppliers?",
+          "Which key resources are we acquiring from partners?",
+          "Which key activities do partners perform?"
+        ],
+        "examples": ["Strategic alliances", "Coopetition", "Joint ventures", "Buyer-supplier relationships"],
+        "relationships": ["Key Partnerships provide Key Resources or perform Key Activities"]
+      },
+      {
+        "id": "cost_structure",
+        "name": "Cost Structure",
+        "description": "Describes all costs incurred to operate a business model. Costs can be cost-driven (minimize costs) or value-driven (premium value creation).",
+        "keyQuestions": [
+          "What are the most important costs inherent in our business model?",
+          "Which key resources are most expensive?",
+          "Which key activities are most expensive?"
+        ],
+        "examples": ["Fixed costs", "Variable costs", "Economies of scale", "Economies of scope"],
+        "relationships": ["Cost Structure is determined by Key Resources, Key Activities, and Key Partnerships"]
+      },
+      {
+        "id": "social_environmental_cost",
+        "name": "Social and Environmental Cost",
+        "description": "Describes the negative social and environmental impacts (externalities) of the business model — emissions, waste, resource depletion, community harm, or health risks.",
+        "keyQuestions": [
+          "What negative social impacts does our business model create?",
+          "What environmental harm or resource depletion results from our operations?",
+          "Who bears these costs and can they be mitigated?"
+        ],
+        "examples": ["Carbon emissions", "Plastic waste", "Water pollution", "Community displacement", "Health risks from production"],
+        "relationships": ["Social and Environmental Cost should be weighed against Revenue Streams and Social and Environmental Benefit"]
+      },
+      {
+        "id": "social_environmental_benefit",
+        "name": "Social and Environmental Benefit",
+        "description": "Describes the positive social and environmental contributions of the business model — jobs created, access to essential services, carbon reduction, education, or health improvements. Often mapped to UN SDGs.",
+        "keyQuestions": [
+          "What positive outcomes does our business create for society?",
+          "What environmental improvements result from our model?",
+          "Which SDGs does our business advance?"
+        ],
+        "examples": ["Clean water access", "Job creation in underserved communities", "Carbon reduction", "Reduced disease burden", "SDG alignment"],
+        "relationships": ["Social and Environmental Benefit complements Value Propositions and Revenue Streams"]
+      }
+    ]
+  },
+  "swotAnalysis": {
+    "description": "SWOT Analysis is a strategic planning technique that identifies Strengths, Weaknesses, Opportunities, and Threats. It helps organizations understand internal capabilities and external environment.",
+    "methodology": {
+      "strengths": {
+        "description": "Internal positive attributes and resources that support achieving objectives",
+        "promptingQuestions": [
+          "What do we do well?",
+          "What unique resources do we have?",
+          "What do others see as our strengths?",
+          "What competitive advantages do we have?"
+        ]
+      },
+      "weaknesses": {
+        "description": "Internal factors that detract from the ability to achieve objectives",
+        "promptingQuestions": [
+          "What could we improve?",
+          "Where do we have fewer resources than others?",
+          "What are others likely to see as weaknesses?",
+          "What factors lose us sales?"
+        ]
+      },
+      "opportunities": {
+        "description": "External factors the organization could exploit to its advantage",
+        "promptingQuestions": [
+          "What trends could we take advantage of?",
+          "What opportunities are open to us?",
+          "What technology changes could benefit us?",
+          "What policy/regulatory changes may benefit us?"
+        ]
+      },
+      "threats": {
+        "description": "External factors that could cause trouble for the organization",
+        "promptingQuestions": [
+          "What obstacles do we face?",
+          "What are our competitors doing?",
+          "Are quality standards or specifications changing?",
+          "Is changing technology threatening our position?"
+        ]
+      }
+    },
+    "scoringCriteria": {
+      "impact": "Rate 1-5 how significantly this factor affects business outcomes",
+      "likelihood": "Rate 1-5 the probability of this factor materializing",
+      "timeframe": "Near-term (< 1 year), Medium (1-3 years), Long-term (3+ years)"
+    }
+  },
+  "portersFiveForces": {
+    "description": "Porter's Five Forces is a framework for analyzing competitive forces within an industry to determine the intensity of competition and profitability potential.",
+    "forces": [
+      {
+        "name": "Threat of New Entrants",
+        "description": "How easy or difficult it is for new competitors to enter the industry",
+        "factors": ["Barriers to entry", "Capital requirements", "Brand loyalty", "Economies of scale", "Government regulations"]
+      },
+      {
+        "name": "Bargaining Power of Suppliers",
+        "description": "How much pressure suppliers can place on a business",
+        "factors": ["Number of suppliers", "Uniqueness of supply", "Switching costs", "Supplier concentration"]
+      },
+      {
+        "name": "Bargaining Power of Buyers",
+        "description": "How much pressure customers can place on a business",
+        "factors": ["Number of customers", "Size of orders", "Price sensitivity", "Buyer information availability"]
+      },
+      {
+        "name": "Threat of Substitutes",
+        "description": "How easily customers can find alternative products or services",
+        "factors": ["Number of substitutes available", "Buyer propensity to substitute", "Relative price performance", "Switching costs"]
+      },
+      {
+        "name": "Industry Rivalry",
+        "description": "The intensity of competition among existing competitors",
+        "factors": ["Number of competitors", "Industry growth rate", "Product differentiation", "Exit barriers", "Fixed cost levels"]
+      }
+    ]
+  },
+  "valuePropositionCanvas": {
+    "description": "The Value Proposition Canvas helps ensure that a product or service is positioned around what the customer values and needs.",
+    "customerProfile": {
+      "jobs": "Tasks customers are trying to perform, problems they're trying to solve, or needs they want to satisfy",
+      "pains": "Negative outcomes, risks, and obstacles related to customer jobs",
+      "gains": "Outcomes and benefits customers want"
+    },
+    "valueMap": {
+      "products": "Products and services the value proposition is built around",
+      "painRelievers": "How products and services alleviate customer pains",
+      "gainCreators": "How products and services create customer gains"
+    }
+  },
+  "leanCanvas": {
+    "description": "The Lean Canvas is a 1-page business plan template adapted from the Business Model Canvas. It focuses on problems, solutions, and key metrics for startups.",
+    "elements": [
+      "Problem (Top 3 problems)",
+      "Solution (Top 3 features)",
+      "Key Metrics (Key activities you measure)",
+      "Unique Value Proposition (Single, clear message)",
+      "Unfair Advantage (Something that cannot be easily copied)",
+      "Channels (Path to customers)",
+      "Customer Segments (Target customers)",
+      "Cost Structure (Customer acquisition costs, distribution costs, hosting, people)",
+      "Revenue Streams (Revenue model, lifetime value, revenue, gross margin)"
+    ]
+  },
+  "businessModelPatterns": {
+    "description": "Common business model patterns that can be combined and adapted",
+    "patterns": [
+      {
+        "name": "Freemium",
+        "description": "Basic service is free; premium features require payment",
+        "examples": ["Spotify", "Dropbox", "LinkedIn"],
+        "bestFor": "Digital products with low marginal costs and network effects"
+      },
+      {
+        "name": "Subscription",
+        "description": "Recurring revenue through periodic payments for continued access",
+        "examples": ["Netflix", "SaaS products", "Gym memberships"],
+        "bestFor": "Services with ongoing value delivery and predictable costs"
+      },
+      {
+        "name": "Marketplace/Platform",
+        "description": "Connect buyers and sellers, taking a fee for facilitating transactions",
+        "examples": ["Airbnb", "Uber", "Etsy"],
+        "bestFor": "Industries with fragmented supply and demand"
+      },
+      {
+        "name": "Razor and Blades",
+        "description": "Sell the base product cheaply, profit from consumables/add-ons",
+        "examples": ["Printers/ink", "Gaming consoles/games", "Coffee machines/pods"],
+        "bestFor": "Products requiring regular replenishment"
+      },
+      {
+        "name": "Direct-to-Consumer (D2C)",
+        "description": "Sell directly to end consumers, bypassing traditional retail",
+        "examples": ["Warby Parker", "Dollar Shave Club", "Casper"],
+        "bestFor": "Brands wanting control over customer experience and data"
+      },
+      {
+        "name": "Pay-as-you-go",
+        "description": "Customers pay based on actual usage rather than a fixed fee",
+        "examples": ["AWS", "Utility companies", "Pay-per-use insurance"],
+        "bestFor": "Variable-demand services where usage varies significantly"
+      },
+      {
+        "name": "Social Enterprise",
+        "description": "Business model that prioritizes social/environmental impact alongside financial sustainability",
+        "examples": ["TOMS Shoes", "Grameen Bank", "Patagonia"],
+        "bestFor": "Organizations balancing profit with purpose"
+      }
+    ]
+  },
+  "dilemmaTriangle": {
+    "description": "The Dilemma Triangle (Triple Bottom Line) framework examines tensions between People, Planet, and Prosperity (Profit). Sustainable businesses must balance all three dimensions.",
+    "drivers": [
+      {
+        "name": "People",
+        "description": "Social equity, fair labor practices, community development, human rights, stakeholder well-being",
+        "tensions": ["Short-term profits vs. fair wages", "Growth vs. community impact", "Efficiency vs. worker well-being"]
+      },
+      {
+        "name": "Planet",
+        "description": "Environmental sustainability, resource conservation, emissions reduction, biodiversity, circular economy",
+        "tensions": ["Cost reduction vs. environmental compliance", "Growth vs. resource limits", "Convenience vs. sustainability"]
+      },
+      {
+        "name": "Prosperity",
+        "description": "Economic viability, profitability, long-term growth, financial inclusion, shared value creation",
+        "tensions": ["Short-term returns vs. long-term sustainability", "Shareholder value vs. stakeholder value", "Scale vs. localization"]
+      }
+    ]
+  }
+}
